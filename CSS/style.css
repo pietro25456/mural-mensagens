@@ -1,0 +1,97 @@
+:root {
+  --primary-green: #198754;
+  --light-green: #d1e7dd;
+  --dark-green: #146c43;
+  --hover-green: #157347;
+}
+
+body {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9fce0 100%);
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.message-card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background: white;
+  border-left: 4px solid var(--primary-green);
+}
+
+.message-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(25, 135, 84, 0.15) !important;
+}
+
+.github-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid var(--primary-green);
+  object-fit: cover;
+}
+
+.avatar-placeholder {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--light-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-green);
+}
+
+.card-title {
+  font-size: 1.1rem;
+}
+
+.card-text {
+  color: #495057;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.message-footer {
+  padding-top: 0.75rem;
+  border-top: 1px solid #e9ecef;
+}
+
+header h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Animação de entrada */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.col-md-6 {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .github-avatar,
+  .avatar-placeholder {
+    width: 40px;
+    height: 40px;
+  }
+}
