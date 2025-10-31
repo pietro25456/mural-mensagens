@@ -76,6 +76,10 @@
     "mensagem":"Olá é o Samuel que vos fala"
   },
   {
+    "nome": "Samuel-legal",
+    "mensagem":"O SENHOR É MEU PASTOR E NADA ME FALTARA - SALMOS:23"
+  },
+  {
     "nome": "ComitreCCS",
     "mensagem": "O nome do meu filho será Gotham, pois, quando ele estiver chorando, minha esposa irá falar: 'Gotham precisa de você'"
   },
@@ -123,5 +127,4 @@
     "nome": "StephyGaby",
     "mensagem": "Sempre se lembre do efeito Borboleta."
   }
-
 ]
